@@ -3,6 +3,7 @@ package org.iesvdm.booking;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+import java.time.LocalDate;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -26,6 +27,18 @@ public class BookingDAOTest {
      */
     @Test
     void  getAllBookingRequestsTest() {
+        String userId= '26788923A'
+        LocalDate dateFrom= LocalDate.of(2018, 1, 1);
+        LocalDate dateTo= LocalDate.of(2018, 1, 3);
+        int guestCount=
+        private final boolean prepaid;
+        userId;
+        this.dateFrom = dateFrom;
+        this.dateTo = dateTo;
+        this.guestCount = guestCount;
+        this.prepaid = prepaid;
+        makeBooking(BookingRequest bookingRequest)
+
 
     }
 
